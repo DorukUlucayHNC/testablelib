@@ -15,3 +15,7 @@ let can_add_4_to_5_and_get_9 () =
     let result = add 4 5
     Assert.AreEqual(9, result)
 
+[<Test>]
+let can_add_9_to_2_and_get_11 () =
+    let result = add 9 2
+    Assert.AreEqual(11, result)
