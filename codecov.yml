@@ -8,7 +8,7 @@ coverage:
   precision: 2      
 
 ignore:
-  - test
+  - "src/library.test"
 
 comment:
   layout: diff, files
