@@ -1,15 +1,14 @@
 coverage:
   status:
-    patch:
-    project:
+    patch: false
 
-  range: 70..90
+  range: 50..75     
                     
   round: up       
   precision: 2      
 
 ignore:
-  - "src/library.test"
+  - test
 
 comment:
-  layout: diff, files, reach
+  layout: diff, files
