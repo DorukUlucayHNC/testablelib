@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="BeautifierTests.fs" />
     <Compile Include="UnitTest1.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
@@ -24,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\library\library.fsproj" />
+    <ProjectReference Include="..\otherlibrary\otherlibrary.fsproj" />
   </ItemGroup>
 
 </Project>
